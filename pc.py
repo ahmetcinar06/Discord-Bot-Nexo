@@ -70,7 +70,7 @@ class PC:
             except asyncio.TimeoutError:
                 await ctx.send("Yanıt alınamadı, işlem iptal edildi.")
         else:
-            await ctx.send("Sisteminiz güncel.")
+            await ctx.send("Sisteminiz güncel çalışıyor.")
 
     async def processes(self, ctx):
         processes = ["Visual Studio Code", "Google Chrome", "File Explorer"]
